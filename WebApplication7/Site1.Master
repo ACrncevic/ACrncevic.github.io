@@ -1,0 +1,40 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site1.master.cs" Inherits="WebApplication7.Site1" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title></title>
+    <link href="StyleSheet1.css" rel="stylesheet" />
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div class="stranica">
+            <div class="menu">
+                <ul>
+                    <li><a href="index.aspx">Početna stranica</a></li>
+                    <li>O nama
+                        <ul>
+                            <li><a href="Onama.aspx">O nama</a></li>
+                            <li><a href="Lokacije.aspx">Lokacije</a></li>
+                            <li><a href="Cjenik.aspx">Cjenik</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="Pridruzise.aspx">Pridruži se</a></li>
+                    <li><a href="Kontakt.aspx">Kontakt</a></li>
+                </ul>
+            </div>
+            <div class="clear"></div>
+             <div class="sadrzaj">
+            <asp:ContentPlaceHolder ID="Sadrzaj" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+            <div class="clear"></div>
+            <div class="footer">Zaštićena autorska prava.</div>
+        </div>
+       
+    </form>
+</body>
+</html>

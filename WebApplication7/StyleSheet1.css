@@ -1,0 +1,156 @@
+﻿* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.stranica {
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+.clear {
+    clear: both;
+}
+
+.menu {
+    background-color: limegreen;
+    text-decoration: none;
+    color: white;
+    width: 100%;
+    margin: 0px 0px 10px;
+    padding: 0px;
+    height: 47px;
+    border-radius: 5px 5px 5px 5px;
+}
+
+    .menu ul li {
+        float: left;
+        list-style: none;
+        background-color: limegreen;
+        border-right: solid 3px white;
+        width: 200px;
+        height: 35px;
+        text-align: center;
+        padding-top: 10px;
+        float: left;
+        position: relative;
+    }
+
+    .menu ul a {
+        text-decoration: none;
+        color: white;
+        display: block;
+    }
+
+    .menu ul li:hover {
+        background-color: lightgreen;
+    }
+
+    .menu ul ul {
+        padding-top: 12px;
+        position: absolute;
+        display: none;
+    }
+
+    .menu ul li > ul li {
+        background-color: lightgreen;
+        border: solid 1px white;
+    }
+
+    .menu ul li:hover > ul {
+        display: block;
+    }
+
+
+
+
+
+.sadrzaj {
+    width: 100%;
+    margin: 0px 0px 10px;
+    padding: 0px;
+    height: auto;
+    background-color: white;
+    border-radius: 5px 5px 5px 5px;
+    border: solid 1px limegreen;
+}
+    .sadrzaj p {
+        text-align:justify;
+    }
+
+#naslovna {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+}
+#ourteam {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+}
+
+.footer {
+    background-color: limegreen;
+    width: 100%;
+    margin: 0px 0px 10px;
+    padding: 0px;
+    height: 30px;
+    border-radius: 5px 5px 5px 5px;
+    text-align: center;
+}
+.sadrzaj iframe {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+.krug {
+    background-color: red;
+    width: 150px;
+    height: 150px;
+    margin:10% auto;
+    border-radius: 50%;
+    position:relative;
+    
+}
+.sad {
+    position:relative;
+    width: inherit;
+    height:auto;
+    top:30%;
+    text-align:center;
+    color: white;
+    
+}
+    .sad:hover{
+        color: black;
+
+    }
+    
+#cjenik {
+    text-align:center;
+    font-size: 28px;
+}
+table {
+    width:93%;
+
+}
+#napomene {
+    padding:0px;
+    text-align:justify;
+
+}
+
+.tkontakt table {
+    background-color: limegreen;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 17px;
+    text-align: left;
+    width: auto;
+    height: auto;
+    border: solid 3px limegreen;
+    border-radius: 5px 5px 5px 5px;
+}
